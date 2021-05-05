@@ -1,0 +1,25 @@
+
+        @media screen and (min-width: 676px) {
+            .modal-dialog {
+                max-width: 400px;
+                /* New width for default modal */
+            }
+        }
+
+        .modal-footer {
+            padding: 15px;
+            text-align: right;
+            border-top: 1px solid white;
+        }
+
+        .login100-form {
+            width: 100%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 3px 28px 3px 19px;
+        }
